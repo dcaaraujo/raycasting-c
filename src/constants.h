@@ -1,0 +1,13 @@
+#ifndef _CONSTANTS_H_
+#define _CONSTANTS_H_
+
+#define FRAMERATE 60
+#define TILE_SIZE 32
+#define WINDOW_WIDTH 800
+#define WINDOW_HEIGHT 600
+#define FOV (FRAMERATE * (PI / 180))
+#define RAY_COUNT WINDOW_WIDTH
+#define MINIMAP_SCALE_FACTOR 0.3
+#define DISTANCE_TO_PROJECTION_PLANE ((WINDOW_WIDTH / 2) / tan(FOV / 2))
+
+#endif
